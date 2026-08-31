@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="504" height="504" x="4" y="4" rx="108" fill="none" stroke="#27272a" stroke-width="8"/>
+  
+  <!-- Camera Body -->
+  <rect x="86" y="140" width="340" height="250" rx="44" fill="#27272a" stroke="#3f3f46" stroke-width="6"/>
+  <!-- Top notch -->
+  <path d="M170 140 L195 95 L317 95 L342 140 Z" fill="#27272a" stroke="#3f3f46" stroke-width="6"/>
+  
+  <!-- Lens Outer Ring -->
+  <circle cx="256" cy="265" r="85" fill="#18181b" stroke="url(#accent)" stroke-width="8"/>
+  <!-- Lens Inner Elements -->
+  <circle cx="256" cy="265" r="60" fill="#09090b" stroke="#3f3f46" stroke-width="4"/>
+  <circle cx="256" cy="265" r="32" fill="#18181b"/>
+  <circle cx="236" cy="245" r="14" fill="#ffffff" fill-opacity="0.4"/>
+  
+  <!-- Flash & Sensor -->
+  <circle cx="360" cy="185" r="14" fill="#ef4444"/>
+  <circle cx="152" cy="185" r="8" fill="#71717a"/>
+  
+  <!-- Timestamp Badge overlay at bottom -->
+  <rect x="110" y="325" width="292" height="42" rx="8" fill="#000000" fill-opacity="0.85" stroke="#f59e0b" stroke-width="2"/>
+  <text x="256" y="353" fill="#fbbf24" font-family="monospace, sans-serif" font-weight="700" font-size="20" text-anchor="middle" letter-spacing="2">2026/08/30 19:21</text>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "name": "Remix Timestamp Camera",
+  "description": "Native Android timestamp camera app with customizable timestamp overlays, custom date/time formats, text styling, and auto-capture timer.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
